@@ -680,3 +680,17 @@ footer {
         padding: 5px 8px;
     }
 }
+/* تنسيق إضافي لضمان توسيط جميع فيديوهات المنشورات بنفس الستايل */
+.posts-section .video-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.posts-section .video-grid .post-card {
+    width: 100%;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
